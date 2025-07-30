@@ -1,0 +1,8 @@
+exifread
+PyPDF2
+python-docx
+exifread
+openpyxl
+python-pptx
+mutagen
+pymediainfo
