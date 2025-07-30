@@ -1,8 +1,9 @@
-exifread
 PyPDF2
-python-docx
 exifread
+python-docx
 openpyxl
 python-pptx
 mutagen
 pymediainfo
+rarfile
+py7zr
