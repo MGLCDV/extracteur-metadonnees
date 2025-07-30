@@ -1,12 +1,13 @@
-# 🕵️ Extracteur de Métadonnées
+# 🕵️ Extracteur de Métadonnées / Metadata Extractor
 
-**Extracteur de Métadonnées** est une application simple en Python avec interface graphique (Tkinter) permettant d'analyser et d'extraire les métadonnées de divers types de fichiers dans le cadre de l'OSINT ou de la vérification documentaire.
+**FR 🇫🇷** – Application Python avec interface graphique (Tkinter) pour extraire les métadonnées de fichiers dans le cadre de l'OSINT ou de la vérification documentaire.  
+**EN 🇬🇧** – Python GUI app (Tkinter) to extract metadata from various file types for OSINT and document verification.
 
 ---
 
-## ✅ Fonctionnalités
+## ✅ Fonctionnalités / Features
 
-- 📄 Extraction de métadonnées pour les fichiers :
+- 📄 Fichiers supportés / Supported files:
   - PDF (`.pdf`)
   - Images (`.jpg`, `.jpeg`, `.png`, `.tiff`)
   - Documents Word (`.docx`)
@@ -14,16 +15,17 @@
   - Présentations PowerPoint (`.pptx`)
   - Archives (`.zip`, `.rar`, `.7z`)
   - Audio (`.mp3`, `.wav`)
-- 📋 Affichage des résultats dans une interface claire
-- 📎 Copie des résultats dans le presse-papiers
-- 🧠 Gestion des cas où les métadonnées sont absentes
+
+- 📋 Affichage clair des résultats / Clear result display
+- 📎 Bouton pour copier dans le presse-papiers / Copy-to-clipboard button
+- 🧠 Gestion des fichiers sans métadonnées / Graceful handling of missing metadata
 
 ---
 
-## 🛠️ Prérequis
+## 🛠️ Prérequis / Requirements
 
 - Python 3.10+
-- Modules Python nécessaires :
+- Installer les dépendances / Install dependencies:
 
 ```bash
 pip install -r requirements.txt
